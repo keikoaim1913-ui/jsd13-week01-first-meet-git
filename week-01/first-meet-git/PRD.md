@@ -233,3 +233,5 @@ The project is complete when:
 ## 10. Success Measure
 
 A beginner learner should be able to inspect the HTML file and identify how common HTML tags are used in a realistic webpage structure.
+
+### The end
