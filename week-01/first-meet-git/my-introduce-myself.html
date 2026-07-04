@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Zone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+     <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        :root{
+            --text-main:#333333;
+        }
+
+        body{
+            font-family:'Inter', sans-serif;
+            background-color:#c2ee88;
+            color:var(--text-main);
+            display:flex;
+            justify-content:center;
+            align-item:center;
+            min-heigh:100vh;
+        }
+        
+        .profile-container{
+            background-color:#ffffff;
+            border-radius:20px;
+            padding:40px 30px;
+            width:350px;
+            text-align:center;
+            box-shadow:0 10px 25px rgba(0,0,0,0.5); /*เงาละมุนๆ*/
+        }
+
+        .profile-image img{
+            width:120px;
+            heigh:120px;
+            border-radius:50%;
+            object-fit:cover;
+            margin-bottom:20px;
+        }
+        
+        .profile-card h2{
+            fon-size:24px;
+            font-weight:600;
+            margin-bottom:8px;
+
+        }
+
+        .location{
+            font-size:16px;
+            color:#5e6c84
+            margin-bottom: 15px;
+            display:flex;
+            justify-content:center;
+            align-item:center;
+            gap:5px;
+           }
+
+           .role{
+            font-size:16px;
+            color:#5e6c84;
+            margin-bottom:25px;
+           }
+
+           .btn-connect{
+            background-color:#ffed49;
+            color:#0033aa;
+            border:none;
+            padding:10px 30px;
+            font-size:16px;
+            font-weight:600;
+            border-radius:10px;
+            cursor:pointer;
+            transition:background-color 0.2s;
+           }
+
+           .btn-connect:hover {
+              background-color:#fce412;
+           }
+     </style>
+
+     <script>
+        console.log("สวัสดี JSD 12 นี้คือ Safe Zone ของเราเองงง");
+     </script>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-class">
+             <div class="profile-image">
+                 <img src="https://i.pinimg.com/1200x/1f/24/50/1f2450739f17fd5bca9bb4fe71b94b28.jpg" alt="Profile Picture">
+             </div>
+        <h2>Aim</h2>
+        <div class="location">
+             📍 Saraburi, Thailand
+        </div>
+        <p class="role">Junior Software Developer รุ่นที่ 13</p>
+        <button class="btn-connect">Connect</button>
+        </div>
+    </div>
+</body>
+</html>
